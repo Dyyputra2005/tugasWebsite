@@ -19,7 +19,7 @@ body {
     font-style: italic;
     background-color: var(--bg);
     color: #fff;
-    min-height: 2000px; 
+    min-height: 3000px; 
 }
 
 /* navbar */
@@ -102,7 +102,7 @@ body {
     width: 100%;
     height: 30%;
     bottom: 0;
-    background: linear-gradient(0deg, rgba(1, 1, 3, 1)8%, rgba(255, 255, 255, 0)50%);
+    background: linear-gradient(0deg, rgba(1, 1, 3, 1)8%, rgba(220, 44, 44, 0)50%);
 }
 
 .hero .content {
@@ -143,12 +143,12 @@ body {
 
 /* about section */
 .about, .menu h2 {
-   padding: 10 rem 7% 1.4rem; 
+   padding: 10rem 7% 1.4rem; 
 }
 
 .about h2, .menu h2 {
     text-align: center;
-    font-size: 2.6 rem;
+    font-size: 2.6rem;
     margin-bottom: 3rem;
 }
 
@@ -195,7 +195,32 @@ body {
     max-width: 30rem;
     font-weight: 100;
     line-height: 1.6;
+    margin: auto;
 }
+
+.menu .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.menu .row .menu-card {
+    text-align: center;
+    padding-bottom: 4rem;
+    margin: 0 0.5rem;
+}
+
+.menu .row .menu-card img {
+    border-radius: 50%;
+    width: 60%;
+}
+
+.menu .row .menu-card .menu-card-title {
+    margin-top: 1rem auto 0.5rem;
+}
+
+
 
 /* media queries */
 
@@ -262,6 +287,10 @@ body {
     .about .row .content h3 {
         margin-top: 1rem;
         font-size: 1.6rem;
+    }
+
+    .menu p {
+        font-size: 1.2rem;
     }
 }
 
