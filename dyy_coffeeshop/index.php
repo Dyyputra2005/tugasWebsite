@@ -29,7 +29,7 @@
         </div>
 
         <div class="navbar-extra">
-            <a href="#" id="search"><i class="bi bi-search"></i></a>
+            <a href="#" id="search-button"><i class="bi bi-search"></i></a>
             <a href="#" id="shopping-cart"><i class="bi bi-cart"></i></a>
             <a href="#" id="tombolmenu"><i class="bi bi-list"></i></a>
         </div>
