@@ -36,7 +36,7 @@
      </nav>
 
      <!-- navbar end -->
-
+    
 
      <!-- hero section start -->
       <section class="hero" id="home">
@@ -146,6 +146,27 @@
             </div>
          </section>
         <!-- contact end -->
+
+        <!-- Footer Start -->
+        <footer>
+            <div class="social">
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-whatsapp"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+            </div>
+
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">Tentang Kami</a>
+                <a href="#menu">Menu</a>
+                <a href="#contact">Kontak</a>
+            </div>
+
+            <div class="credit">
+                <p>Created by <a href="">Adi - William - Charles</a> | &copy; 2026.</p>
+            </div>
+        </footer>
+        <!-- Footer End -->
 
 
      <!-- Javascript -->
