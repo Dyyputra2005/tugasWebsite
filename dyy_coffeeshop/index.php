@@ -33,6 +33,13 @@
             <a href="#" id="shopping-cart"><i class="bi bi-cart"></i></a>
             <a href="#" id="tombolmenu"><i class="bi bi-list"></i></a>
         </div>
+         
+      <!-- Search Form Start -->
+       <div class="search-form">
+        <input type="Search" id="search-box" placeholder="search here...">
+        <label for="search-box"><i class="bi bi-search"></i></label>
+       </div>
+      <!-- search Form End -->
      </nav>
 
      <!-- navbar end -->
