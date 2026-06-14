@@ -13,9 +13,7 @@
       <link rel="stylesheet" href="css/style.css">
 
       <!-- Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
 </head>
 <body>
@@ -121,6 +119,34 @@
 
         
         <!-- menu section end -->
+
+        <!-- contact start -->
+         <section id="contact" class="contact">
+            <h2><span>Kontak</span>Kami</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, voluptatem?</p>
+
+            <div class="row">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7978.056135587166!2d104.00628427770997!3d1.1403842000000055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d989825a6f4d29%3A0x5ebdc09b9a666942!2sUniversitas%20Putera%20Batam%20-%20Kampus%20B%20(Nagoya)!5e0!3m2!1sid!2sid!4v1781429003322!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+                <form action="">
+                    <div class="input-group">
+                        <i class="bi bi-person"></i>
+                        <input type="text" placeholder="nama">
+                    </div>
+                    <div class="input-group">
+                        <i class="bi bi-envelope"></i>
+                        <input type="text" placeholder="email">
+                    </div>
+                    <div class="input-group">
+                        <i class="bi bi-telephone"></i>
+                        <input type="text" placeholder="No HP">
+                    </div>
+                    <button type="submit" class="btn">kirim pesan</button>
+                </form>
+            </div>
+         </section>
+        <!-- contact end -->
+
 
      <!-- Javascript -->
       <script src="js/script.js"></script>
