@@ -73,7 +73,7 @@
        </section>
        <!-- about section end -->
 
-       <!-- menu section start -->
+      <!-- menu section start -->
         <section id="menu" class="menu">
             <h2><span>Menu</span>Kami</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam alias
@@ -82,42 +82,56 @@
              <div class="menu-card">
                 <img src="img/Latte.jpg" alt="Latte" class="menu-card-img">
                 <h3 class="menu-card-title">Latte</h3>
+                <p class="menu-card-price">IDR 25k</p>
+             </div>
+             <div class="menu-card">
+                <img src="img/Expresso.jpg" alt="Latte" class="menu-card-img">
+                <h3 class="menu-card-title">Expresso</h3>
                 <p class="menu-card-price">IDR 20k</p>
              </div>
              <div class="menu-card">
-                <img src="img/Latte.jpg" alt="Latte" class="menu-card-img">
-                <h3 class="menu-card-title">Latte</h3>
+                <img src="img/Matcha Latte.jpg" alt="Latte" class="menu-card-img">
+                <h3 class="menu-card-title">Matcha Latte</h3>
+                <p class="menu-card-price">IDR 25k</p>
+             </div>
+             <div class="menu-card">
+                <img src="img/Red velvet Latte.jpg" alt="Latte" class="menu-card-img">
+                <h3 class="menu-card-title">Red velvet latte</h3>
+                <p class="menu-card-price">IDR 25k</p>
+             </div>
+             <div class="menu-card">
+                <img src="img/Taro Latte.jpg" alt="Latte" class="menu-card-img">
+                <h3 class="menu-card-title">Taro Latte</h3>
+                <p class="menu-card-price">IDR 25k</p>
+             </div>
+             <div class="menu-card">
+                <img src="img/Americano.jpg" alt="Latte" class="menu-card-img">
+                <h3 class="menu-card-title">Americano</h3>
                 <p class="menu-card-price">IDR 20k</p>
              </div>
              <div class="menu-card">
-                <img src="img/Latte.jpg" alt="Latte" class="menu-card-img">
-                <h3 class="menu-card-title">Latte</h3>
+                <img src="img/Cappucino.jpg" alt="Latte" class="menu-card-img">
+                <h3 class="menu-card-title">Cappucino</h3>
                 <p class="menu-card-price">IDR 20k</p>
              </div>
              <div class="menu-card">
-                <img src="img/Latte.jpg" alt="Latte" class="menu-card-img">
-                <h3 class="menu-card-title">Latte</h3>
+                <img src="img/Vanilla Latte.jpg" alt="Latte" class="menu-card-img">
+                <h3 class="menu-card-title">Vannilla Latte</h3>
                 <p class="menu-card-price">IDR 20k</p>
              </div>
              <div class="menu-card">
-                <img src="img/Latte.jpg" alt="Latte" class="menu-card-img">
-                <h3 class="menu-card-title">Latte</h3>
+                <img src="img/Hazelnut Latte.jpg" alt="Latte" class="menu-card-img">
+                <h3 class="menu-card-title">Hazelnut Latte</h3>
                 <p class="menu-card-price">IDR 20k</p>
              </div>
              <div class="menu-card">
-                <img src="img/Latte.jpg" alt="Latte" class="menu-card-img">
-                <h3 class="menu-card-title">Latte</h3>
-                <p class="menu-card-price">IDR 20k</p>
-             </div>
-             <div class="menu-card">
-                <img src="img/Latte.jpg" alt="Latte" class="menu-card-img">
-                <h3 class="menu-card-title">Latte</h3>
+                <img src="img/Brown Sugar Latte.jpg" alt="Latte" class="menu-card-img">
+                <h3 class="menu-card-title">Hazelnut Latte</h3>
                 <p class="menu-card-price">IDR 20k</p>
              </div>
            </div>     
         </section>
 
-        
         <!-- menu section end -->
 
         <!-- contact start -->
