@@ -80,69 +80,35 @@
        </section>
        <!-- about section end -->
 
-      <!-- menu section start -->
+        <!-- menu section start -->
         <section id="menu" class="menu">
             <h2><span>Menu</span>Kami</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam alias
-                 aliquid aperiam architecto dolore reiciendis?</p>
+            <p>Nikmati secangkir kopi pilihan dari biji terbaik yang kami olah dengan penuh cinta.</p>
+            
             <div class="row">
-             <div class="menu-card">
-                <img src="img/Latte.jpg" alt="Latte" class="menu-card-img">
-                <h3 class="menu-card-title">Latte</h3>
-                <p class="menu-card-price">IDR 25k</p>
-             </div>
-             <div class="menu-card">
-                <img src="img/Expresso.jpg" alt="Latte" class="menu-card-img">
-                <h3 class="menu-card-title">Expresso</h3>
-                <p class="menu-card-price">IDR 20k</p>
-             </div>
-             <div class="menu-card">
-                <img src="img/Matcha Latte.jpg" alt="Latte" class="menu-card-img">
-                <h3 class="menu-card-title">Matcha Latte</h3>
-                <p class="menu-card-price">IDR 25k</p>
-             </div>
-             <div class="menu-card">
-                <img src="img/Red velvet Latte.jpg" alt="Latte" class="menu-card-img">
-                <h3 class="menu-card-title">Red velvet latte</h3>
-                <p class="menu-card-price">IDR 25k</p>
-             </div>
-             <div class="menu-card">
-                <img src="img/Taro Latte.jpg" alt="Latte" class="menu-card-img">
-                <h3 class="menu-card-title">Taro Latte</h3>
-                <p class="menu-card-price">IDR 25k</p>
-             </div>
-             <div class="menu-card">
-                <img src="img/Americano.jpg" alt="Latte" class="menu-card-img">
-                <h3 class="menu-card-title">Americano</h3>
-                <p class="menu-card-price">IDR 20k</p>
-             </div>
-             <div class="menu-card">
-                <img src="img/Cappucino.jpg" alt="Latte" class="menu-card-img">
-                <h3 class="menu-card-title">Cappucino</h3>
-                <p class="menu-card-price">IDR 20k</p>
-             </div>
-             <div class="menu-card">
-                <img src="img/Vanilla Latte.jpg" alt="Latte" class="menu-card-img">
-                <h3 class="menu-card-title">Vannilla Latte</h3>
-                <p class="menu-card-price">IDR 20k</p>
-             </div>
-             <div class="menu-card">
-                <img src="img/Hazelnut Latte.jpg" alt="Latte" class="menu-card-img">
-                <h3 class="menu-card-title">Hazelnut Latte</h3>
-                <p class="menu-card-price">IDR 20k</p>
-             </div>
-             <div class="menu-card">
-                <img src="img/Brown Sugar Latte.jpg" alt="Latte" class="menu-card-img">
-                <h3 class="menu-card-title">Hazelnut Latte</h3>
-                <p class="menu-card-price">IDR 20k</p>
-             </div>
-           </div>     
+                <?php
+                // Panggil koneksi database
+                include 'config/database.php';
+                
+                // Ambil semua menu
+                $stmt = $pdo->query("SELECT * FROM products WHERE is_available = 1");
+                $menus = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                
+                foreach($menus as $menu):
+                ?>
+                <div class="menu-card">
+                    <img src="img/<?php echo $menu['image']; ?>" alt="<?php echo $menu['name']; ?>" class="menu-card-img">
+                    <h3 class="menu-card-title"><?php echo $menu['name']; ?></h3>
+                    <p class="menu-card-price">IDR <?php echo number_format($menu['price'], 0, ',', '.'); ?></p>
+                    <small>Stok: <?php echo $menu['stock']; ?></small>
+                </div>
+                <?php endforeach; ?>
+            </div>
         </section>
-
-        <!-- menu section end -->
+        <!-- menu section end -->    
 
         <!-- contact start -->
-         <section id="contact" class="contact">
+        <section id="contact" class="contact">
             <h2><span>Kontak</span>Kami</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, voluptatem?</p>
 
@@ -165,7 +131,7 @@
                     <button type="submit" class="btn">kirim pesan</button>
                 </form>
             </div>
-         </section>
+        </section>
         <!-- contact end -->
 
         <!-- Footer Start -->
@@ -190,7 +156,7 @@
         <!-- Footer End -->
 
 
-     <!-- Javascript -->
-      <script src="js/script.js"></script>
+    <!-- Javascript -->
+    <script src="js/script.js"></script>
 </body>
 </html>
